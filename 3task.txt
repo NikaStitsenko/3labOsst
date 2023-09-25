@@ -1,0 +1,1 @@
+ Get-ChildItem C:\Windows\*.exe | Where {$_.length -gt 50000| Sort-Object length | tee "Z:\ОССТ(2023-2024)\2-МВ-5\Стиценко\3lab\out.txt"
